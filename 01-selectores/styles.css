@@ -1,0 +1,109 @@
+/* prueba inicio*/
+/*body {*/
+/*    background: gray;*/
+/*}*/
+/*
+  ############## SELECTORES ###############
+*/
+
+/*
+ Selector universal
+*/
+
+* {
+    font-family: Verdana,Arial,Geneva,Tahoma,sans-serif
+}
+
+/* Selector de etiqueta */
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: red;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer a {
+    color: red;
+}
+
+/* Selector de id */
+
+#description,
+#titulo
+{
+    border: 3px solid black;
+    padding: 15px
+}
+
+#titulo{
+    background: blue;
+    border: 2px dashed white;
+}
+
+/* Selector de clase */
+.paragraph {
+    font-style: italic;
+    /*text-decoration: underline;*/
+    font-weight: bold;
+}
+
+.paragraph1 {
+    background-color: green;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.paragraph3 {
+    background-color: orange;
+    color: black;
+}
+
+/* Selector de atributo */
+
+#user form {
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#user form * {
+    display: block;
+}
+/* estos son por atributos*/
+input[type="text"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer; /*manita*/
+}
+
+/* Selectores hijo */
+
+#menu > li > a {
+    color: red;
+}
+
+/* Prioridad */
+#saludo h1 {
+    background: brown; !important
+}
+
+h1 {
+    background: purple; !important
+}
