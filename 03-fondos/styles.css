@@ -1,11 +1,15 @@
 body{
     background-color: #cccccc;
-    background-image: url('./img/imagen1.png');
-    background-repeat: no-repeat; /* repeat, no-repeat, repeat-x, repeat-y */
-    background-size: 100%;
-    background-attachment: fixed;  /*para que el fondo se quede fijado*/
-    background-position: right bottom; /* posicion de el background*/
-    color: red;
+    /*background-image: url('./img/imagen1.png');*/
+    /*background-repeat: no-repeat; !* repeat, no-repeat, repeat-x, repeat-y *!*/
+    /*background-size: 100%;*/
+    /*background-attachment: fixed;  !*para que el fondo se quede fijado*!*/
+    /*background-position: right bottom; !* posicion de el background*!*/
+    /*color: red;*/
+    text-align: justify;
+    text-indent: 15px; /*∫intentaciones*/
+    /*word-spacing: 10px; espacio entre palabras*/
+    /*letter-spacing: 10px; espacio entre letras*/
 }
 
 #caja{
@@ -13,9 +17,16 @@ body{
     padding: 10px;
     background-color: rgb(65, 179, 227);
     color: white;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    line-height: 80px;
+    text-transform: uppercase; /*mayusculas*/
+    text-decoration: underline; /*subrayados*/
+
 }
 
 h2 {
     color:red;
     border: 5px solid red;
+    background-image: url('./img/imagen1.png');
 }
