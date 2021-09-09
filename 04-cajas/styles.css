@@ -3,8 +3,12 @@
     padding: 0;
 }
 
-#caja1,
-#caja2{
+body {
+    padding: 40px;
+}
+
+.caja{
+    display: block;
     width: 250px;
     height: 250px;
     background-color:lightskyblue;
@@ -16,12 +20,20 @@
     margin-right: 10px;
     padding: 20px;
     padding-bottom: 34px;
+    float: left;
 }
 
-p {
+.caja p {
     font-weight: bold;
     text-align: center;
     font-size: 20px;
     font-family: Arial, serif;
     line-height: 250px;
+}
+
+.clearfix {
+    /*para borrar las propiedades flotantes*/
+    float: none;
+    clear: both;
+
 }
