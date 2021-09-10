@@ -1,0 +1,56 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+ul li:first-child {
+    color: purple;
+    font-weight: bold;
+}
+
+ul li:nth-child(2){
+    color: orange;
+    font-weight: bold;
+}
+
+ul li:last-child{
+    color: grey;
+    font-weight: bold;
+}
+
+#enlace{
+    font-size: 30px;
+    color: darksalmon;
+}
+
+#enlace:link{ /* para cuando no se ha visitado un enlace*/
+    color: red;
+}
+
+#enlace:visited{ /* para cuando se ha visitado un enlace*/
+    color: orangered;
+}
+
+
+#enlace:hover{ /* para cuando pasas por encima*/
+    color: blue;
+}
+
+#enlace:active{ /* para cuando activas el enlace */
+    color: green;
+    font-family: Impact, sans-serif;
+}
+
+input[type]{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+input[type]:focus{
+    border: 3px dashed black;
+}
+
+/* hay muchisimas mas pseudos */
